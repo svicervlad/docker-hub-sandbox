@@ -1,5 +1,4 @@
-ARG  PHP_VERSION=7.3
-FROM php:${PHP_VERSION}-apache
+FROM php:${DOCKER_TAG}-apache
 
 # Surpresses debconf complaints of trying to install apt packages interactively
 # https://github.com/moby/moby/issues/4032#issuecomment-192327844
