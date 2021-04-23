@@ -1,3 +1,4 @@
+ARG DOCKER_TAG
 FROM php:${DOCKER_TAG}-apache
 
 # Surpresses debconf complaints of trying to install apt packages interactively
