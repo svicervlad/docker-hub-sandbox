@@ -1,5 +1,4 @@
-ARG DOCKER_TAG
-FROM php:${DOCKER_TAG}-apache
+FROM php:7.4-apache
 
 # Surpresses debconf complaints of trying to install apt packages interactively
 # https://github.com/moby/moby/issues/4032#issuecomment-192327844
